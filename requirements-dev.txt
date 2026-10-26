@@ -8,4 +8,4 @@ pytest-asyncio==1.4.0
 # starlette.testclient prefers httpx2 since Starlette 1.2.0 and warns on every
 # TestClient import when only classic httpx is present. Runtime code keeps
 # using `httpx` (in requirements.txt); this is test-client only.
-httpx2==2.7.0
+httpx2==2.16.0
