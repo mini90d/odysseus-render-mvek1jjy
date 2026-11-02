@@ -6,7 +6,7 @@
 # Render's managed platform — so builds are fast and the image stays small.
 # Core chat, agents, research, documents, email, notes, and calendar (via cloud
 # LLM APIs, SearXNG web search, and ChromaDB) are unaffected.
-FROM python:3.14-slim
+FROM python:3.15-slim
 
 # Runtime shared libs only:
 #   libmagic1 -> python-magic content-based MIME sniffing (src/upload_handler.py)
